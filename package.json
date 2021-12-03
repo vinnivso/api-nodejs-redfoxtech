@@ -2,7 +2,7 @@
    "scripts": {
       "dev": "clear && nodemon ./src/index.ts",
       "start": "tsc && node ./build/index.js",
-      "migrations": "tsnd ./src/migrations/createProductTable.ts"
+      "migrations": "tsnd ./src/migrations/createPokemonTable.ts"
    },
    "dependencies": {
       "cors": "^2.8.5",
