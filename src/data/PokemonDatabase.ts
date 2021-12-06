@@ -4,7 +4,7 @@ import { InterfacePokemonDB } from "../entities/InterfacePokemonDB"
 export class PokemonDatabase extends BaseDatabase implements InterfacePokemonDB {
   private static tableName = "redfoxtech_challenge_pokemongo"
 
-  getAllPokemons = async(query:any):Promise<object[] | boolean> => {
+  async getAllPokemons(query:any):Promise<object[] | boolean>{
     try {
       const result = await BaseDatabase.connection(PokemonDatabase.tableName)
         .orderBy(query.sort, query.order)
