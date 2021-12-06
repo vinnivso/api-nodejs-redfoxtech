@@ -1,6 +1,6 @@
 export interface InterfacePokemonDB {
-  getAll(query: object): Promise<object[] | boolean>
-  getById(id: number): Promise<object | boolean>
-  getByName(name: string, query: object): Promise<object | boolean>
-  getByType(type: string, query: object): Promise<object[] | boolean>
+  getAllPokemons(query: object): Promise<object[] | boolean>
+  getPokemonsById(id: number): Promise<object | boolean>
+  getPokemonsByName(name: string, query: object): Promise<object | boolean>
+  getPokemonsByType(type: string, query: object): Promise<object[] | boolean>
 }
