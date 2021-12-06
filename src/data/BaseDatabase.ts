@@ -5,9 +5,6 @@ import dotenv from "dotenv"
 dotenv.config()
 
 export default class BaseDatabase {
-  constructor(
-    protected tableName:string
-  ) {}
   static connection = knex ({
     client:"mysql",
     connection: {
