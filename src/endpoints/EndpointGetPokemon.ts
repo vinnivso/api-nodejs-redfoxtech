@@ -5,7 +5,7 @@ import { PokemonDatabase } from "../data/PokemonDatabase"
  * https://www.w3schools.com/tags/ref_httpmessages.asp
  */
 
-export class EndpointGetPokemons {
+export class EndpointGetPokemon {
   async getPokemons(request:express.Request, response:express.Response):Promise<void> {
     try {
       let {name, type, sort, order} = request.query

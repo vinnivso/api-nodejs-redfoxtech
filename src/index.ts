@@ -1,4 +1,4 @@
 import { app } from "./app"
-import { EndpointGetPokemons } from "./endpoints/EndpointGetPokemons"
+import { EndpointGetPokemon } from "./endpoints/EndpointGetPokemon"
 
-app.get("/pokemons", new EndpointGetPokemons().getPokemons)
+app.get("/pokemons", new EndpointGetPokemon().getPokemons)
