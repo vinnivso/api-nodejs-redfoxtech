@@ -5,7 +5,7 @@ async function createPokemonTable():Promise<boolean> {
   try {
     await BaseDatabase.connection.raw(`
       CREATE TABLE IF NOT EXISTS redfoxtech_challenge_pokemongo (
-        id INT(11) NOT NULL,
+        ID INT(11) NOT NULL,
         Name VARCHAR(255) DEFAULT NULL,
         Pokedex_Number INT(11) DEFAULT NULL,
         Img_name VARCHAR(255) DEFAULT NULL,
