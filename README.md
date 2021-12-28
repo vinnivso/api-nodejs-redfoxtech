@@ -1,4 +1,4 @@
-# challenge-redfoxtech
+# api-redfoxtech
 RedFoxTech Challenge - TypeScript Back End
 
 ## Desafio Pokémon Go!
