@@ -1,4 +1,9 @@
 {
+   "name": "api-nodejs-redfoxtech",
+   "version": "1.0.0",
+   "repository": "git@github.com:vinnivso/api-nodejs-redfoxtech.git",
+   "author": "vinnivso <vinnivsob@gmail.com>",
+   "license": "MIT",
    "scripts": {
       "dev": "clear && nodemon ./src/index.ts",
       "start": "tsc && node ./build/index.js",
